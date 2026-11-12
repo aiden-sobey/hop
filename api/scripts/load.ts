@@ -1,5 +1,5 @@
 // Simulates the dashboard: each user loads the "Last 30 days" view for a tenant,
-// while the load balancer checks /health every 2 seconds.
+// while the load balancer checks /health every 10 seconds.
 //
 //   pnpm load                      # northwind, 3 concurrent users
 //   pnpm load fabrikam 10          # tenant, concurrent users
@@ -34,7 +34,7 @@ async function healthCheck() {
 
 async function main() {
   console.log(`${users} users loading ${tenant} from ${baseUrl}`);
-  const health = setInterval(healthCheck, 2_000);
+  const health = setInterval(healthCheck, 10_000);
   await Promise.all(Array.from({ length: users }, (_, i) => dashboardRequest(i + 1)));
   clearInterval(health);
 }
