@@ -8,8 +8,9 @@ This repo serves the `readings-api` that sits behind the dashboard.
 
 The team has asked for help with two problems:
 
-1. **The weekly cleanup deleted the demo environment.** See [`incidents/2026-11-09-demo-environment-deleted`](incidents/2026-11-09-demo-environment-deleted/README.md).
-2. **API tasks keep restarting in production.** See [`incidents/2026-11-10-api-restarts`](incidents/2026-11-10-api-restarts/README.md).
+1. **API tasks keep restarting in production.** See [`incidents/2026-11-10-api-restarts`](incidents/2026-11-10-api-restarts/README.md).
+2. **The weekly cleanup deleted the demo environment.** See [`incidents/2026-11-09-demo-environment-deleted`](incidents/2026-11-09-demo-environment-deleted/README.md).
+
 
 Find the cause of each problem, fix what you can in the repo, and tell us how you would roll the fix out.
 
@@ -40,7 +41,7 @@ Every branch gets its own preview environment. A merge to `main` deploys to prod
 
 ## Run it locally
 
-You need Docker, Node 22 with pnpm 10 (`corepack enable` sets it up) and Terraform 1.10 or later.
+You need Docker, Node 22 with pnpm 10 (`corepack enable` sets it up). Terraform >= 1.10 is optional, for syntax checking.
 
 Start Postgres and the API. The API listens on port 3000 and Postgres on port 5433.
 
@@ -48,7 +49,7 @@ Start Postgres and the API. The API listens on port 3000 and Postgres on port 54
 docker compose up -d --build
 ```
 
-Load the test data. This takes about 20 seconds and adds three customers with 30 days of readings.
+Seed test data. Adds three customers with 30 days of readings.
 
 ```bash
 cd api
@@ -56,19 +57,13 @@ pnpm install
 pnpm seed
 ```
 
-Simulate dashboard traffic. The arguments are the customer and the number of users, and both are optional.
+Simulate dashboard traffic. Sends API requests to Docker the way the dashboard would when pulling last 30 days of readings.
+Follows with health checks.
+Arguments are optional.
 
 ```bash
 pnpm load
 pnpm load fabrikam 5
-```
-
-If port 3000 or 5433 is already in use, pick other ports:
-
-```bash
-API_PORT=3001 DB_PORT=5434 docker compose up -d --build
-DATABASE_URL=postgres://app:app@localhost:5434/readings pnpm seed
-API_URL=http://localhost:3001 pnpm load
 ```
 
 Run the cleanup script's tests:
@@ -79,11 +74,10 @@ pnpm install
 pnpm test
 ```
 
-You don't have AWS access, so you can't plan or apply the Terraform. You can still check your changes:
+(Optional) You can validate TF syntax:
 
 ```bash
 cd infra/environments/preview
 terraform init -backend=false
 terraform validate
 ```
-

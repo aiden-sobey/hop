@@ -13,6 +13,7 @@ const tenants = [
 async function main() {
   const client = new Client({ connectionString: databaseUrl });
   await client.connect();
+  await waitForMigrations(client);
   const started = Date.now();
 
   await client.query('truncate readings, meters, tenants restart identity cascade');
@@ -40,6 +41,17 @@ async function main() {
   console.table(rows);
   console.log(`Done in ${((Date.now() - started) / 1000).toFixed(1)}s`);
   await client.end();
+}
+
+// The API creates the tables when it starts, so wait for it after `docker compose up`.
+async function waitForMigrations(client: Client) {
+  for (let attempt = 0; attempt < 60; attempt++) {
+    const { rows } = await client.query("select to_regclass('public.readings') is not null as ready");
+    if (rows[0].ready) return;
+    if (attempt === 0) console.log('Waiting for the API to create the tables...');
+    await new Promise((resolve) => setTimeout(resolve, 1_000));
+  }
+  throw new Error('The readings table does not exist. Is the API running? Try: docker compose logs api');
 }
 
 main().catch((error) => {
