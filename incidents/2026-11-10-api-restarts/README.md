@@ -8,6 +8,11 @@ Northwind is our largest customer, with about 2,000 meters. Since Tuesday mornin
 
 ECS is replacing the API tasks over and over, and often all of them at once.
 
+## Impact
+
+- Largest customer is unable to consistently use the product. They've told support they're very unhappy.
+- Other customers have been raising reliability concerns with their intermittent outages.
+
 ## What we have
 
 - [`ecs-service-events.log`](ecs-service-events.log): ECS service events for `readings-api-prod`, from our EventBridge archive.
