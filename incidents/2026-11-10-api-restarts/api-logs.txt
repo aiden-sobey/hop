@@ -1,0 +1,13 @@
+# CloudWatch Logs, /ecs/readings-api-prod, 11 November 2026 09:12 to 09:15 AEDT. Most debug lines removed.
+
+2026-11-11T09:12:58.114+11:00 api/api/1a28f7b324e4e25a15fc899e4fd58dbe {"context":"ReadingsService","level":"debug","message":"Loaded 72000 readings for tenant fabrikam","timestamp":"2026-11-10T22:12:58.114Z"}
+2026-11-11T09:12:58.131+11:00 api/api/1a28f7b324e4e25a15fc899e4fd58dbe {"context":"ReadingsService","level":"debug","message":"Fetching meter 2004 for tenant fabrikam","timestamp":"2026-11-10T22:12:58.131Z"}
+2026-11-11T09:12:58.139+11:00 api/api/1a28f7b324e4e25a15fc899e4fd58dbe {"context":"ReadingsService","level":"debug","message":"Fetching meter 2005 for tenant fabrikam","timestamp":"2026-11-10T22:12:58.139Z"}
+2026-11-11T09:13:04.502+11:00 api/api/43c71b9abd87a86557b6fb7ebfeaa155 {"level":"error","message":"Health Check has failed! {\"database\":{\"message\":\"timed out after 2000ms\",\"status\":\"down\"}}","timestamp":"2026-11-10T22:13:04.502Z"}
+2026-11-11T09:13:09.877+11:00 api/api/29540a6eb12aa1f6d42fddbb7a86f7a2 {"level":"error","message":"Health Check has failed! {\"database\":{\"message\":\"timed out after 2000ms\",\"status\":\"down\"}}","timestamp":"2026-11-10T22:13:09.877Z"}
+2026-11-11T09:13:14.505+11:00 api/api/43c71b9abd87a86557b6fb7ebfeaa155 {"level":"error","message":"Health Check has failed! {\"database\":{\"message\":\"timed out after 2000ms\",\"status\":\"down\"}}","timestamp":"2026-11-10T22:13:14.505Z"}
+2026-11-11T09:13:19.880+11:00 api/api/29540a6eb12aa1f6d42fddbb7a86f7a2 {"level":"error","message":"Health Check has failed! {\"database\":{\"message\":\"timed out after 2000ms\",\"status\":\"down\"}}","timestamp":"2026-11-10T22:13:19.880Z"}
+2026-11-11T09:13:22.311+11:00 api/api/f373ca533488f87605e999f3842e7fc2 {"level":"error","message":"Health Check has failed! {\"database\":{\"message\":\"timed out after 2000ms\",\"status\":\"down\"}}","timestamp":"2026-11-10T22:13:22.311Z"}
+2026-11-11T09:14:41.020+11:00 api/api/fa7f0eab4c4f9b0687322e25c215a82a {"level":"info","message":"Running database migrations","timestamp":"2026-11-10T22:14:41.020Z"}
+2026-11-11T09:14:41.093+11:00 api/api/fa7f0eab4c4f9b0687322e25c215a82a {"level":"info","message":"Database migrations complete","timestamp":"2026-11-10T22:14:41.093Z"}
+2026-11-11T09:14:41.664+11:00 api/api/fa7f0eab4c4f9b0687322e25c215a82a {"level":"info","message":"readings-api listening on 3000","timestamp":"2026-11-10T22:14:41.664Z"}

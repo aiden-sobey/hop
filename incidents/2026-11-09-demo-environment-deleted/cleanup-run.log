@@ -1,0 +1,34 @@
+Clean up preview environments #31 (schedule), Friday 6 November 2026 22:00 AEDT
+
+== find / Run pnpm --silent start
+keep    feat-alerts (0.8 days, 2c7d0a4, tbrown)
+keep    feat-export-csv (2.1 days, 4be91c0, mhughes)
+DESTROY feat-tariff-v2 (15.3 days, 7a1d2f3, skumar)
+DESTROY demo (42.4 days, c81e5a9, priya-n)
+keep    staging (88.0 days, 1f0e9b2, jlee)
+DESTROY fix-login-redirect (9.6 days, 0d93be1, mhughes)
+
+== destroy (feat-tariff-v2) / Destroy
+...
+Destroy complete! Resources: 47 destroyed.
+
+== destroy (fix-login-redirect) / Destroy
+...
+Destroy complete! Resources: 47 destroyed.
+
+== destroy (demo) / Destroy
+Switched to workspace "demo".
+...
+module.environment.aws_ecs_service.api: Destroying... [id=arn:aws:ecs:ap-southeast-2:111122223333:service/readings-demo/readings-api-demo]
+module.environment.aws_db_instance.this: Destroying... [id=db-K7Q2M4X9VT3PLR6WZ5NB8HC1DE]
+module.environment.module.exports_bucket.aws_s3_bucket.this[0]: Destroying... [id=acme-readings-demo-exports]
+module.environment.aws_ecs_service.api: Still destroying... [10s elapsed]
+module.environment.aws_db_instance.this: Still destroying... [10s elapsed]
+module.environment.aws_ecs_service.api: Destruction complete after 1m2s
+...
+module.environment.aws_db_instance.this: Still destroying... [6m30s elapsed]
+module.environment.aws_db_instance.this: Destruction complete after 6m41s
+...
+Error: deleting S3 Bucket (acme-readings-demo-exports): operation error S3: DeleteBucket, https response error StatusCode: 409, RequestID: 8QZ1N6V2K4R7T0BX, api error BucketNotEmpty: The bucket you tried to delete is not empty. You must delete all versions in the bucket.
+
+Error: Process completed with exit code 1.

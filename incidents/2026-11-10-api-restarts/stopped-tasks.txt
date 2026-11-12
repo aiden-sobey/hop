@@ -1,0 +1,10 @@
+# aws ecs describe-tasks for the tasks stopped on 11 November 2026 between 09:13 and 09:15 AEDT.
+# ECS keeps stopped tasks for about an hour, so this is the only window we captured.
+
+TASK                               STOPPED_AT                  EXIT   STOPPED_REASON
+1a28f7b324e4e25a15fc899e4fd58dbe   2026-11-11T09:13:51+11:00   137    OutOfMemoryError: Container killed due to memory usage
+43c71b9abd87a86557b6fb7ebfeaa155   2026-11-11T09:14:18+11:00   143    Task failed ELB health checks in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09)
+29540a6eb12aa1f6d42fddbb7a86f7a2   2026-11-11T09:14:18+11:00   143    Task failed ELB health checks in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09)
+f373ca533488f87605e999f3842e7fc2   2026-11-11T09:14:18+11:00   143    Task failed ELB health checks in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09)
+2587be6b5c9bcf35873be078f3b7a50d   2026-11-11T09:14:18+11:00   143    Task failed ELB health checks in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09)
+06ec41adea0575438b0d590bb0a844e5   2026-11-11T09:14:18+11:00   143    Task failed ELB health checks in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09)

@@ -1,0 +1,151 @@
+month,stage,environment,service,cost_usd
+2026-07,prod,prod,Amazon Relational Database Service,488.07
+2026-07,prod,prod,EC2 - Other,176.42
+2026-07,prod,prod,Amazon Elastic Container Service,29.49
+2026-07,prod,prod,Elastic Load Balancing,30.96
+2026-07,prod,prod,AmazonCloudWatch,62.02
+2026-07,prod,prod,Amazon Simple Storage Service,38.13
+2026-07,preview,demo,Amazon Relational Database Service,459.15
+2026-07,preview,demo,EC2 - Other,136.10
+2026-07,preview,demo,Amazon Elastic Container Service,29.23
+2026-07,preview,demo,Elastic Load Balancing,19.33
+2026-07,preview,demo,AmazonCloudWatch,5.85
+2026-07,preview,demo,Amazon Simple Storage Service,8.89
+2026-07,preview,staging,Amazon Relational Database Service,456.51
+2026-07,preview,staging,EC2 - Other,138.53
+2026-07,preview,staging,Amazon Elastic Container Service,29.34
+2026-07,preview,staging,Elastic Load Balancing,18.48
+2026-07,preview,staging,AmazonCloudWatch,6.17
+2026-07,preview,staging,Amazon Simple Storage Service,2.06
+2026-07,preview,feat-onboarding,Amazon Relational Database Service,472.32
+2026-07,preview,feat-onboarding,EC2 - Other,136.94
+2026-07,preview,feat-onboarding,Amazon Elastic Container Service,28.40
+2026-07,preview,feat-onboarding,Elastic Load Balancing,18.45
+2026-07,preview,feat-onboarding,AmazonCloudWatch,6.01
+2026-07,preview,feat-onboarding,Amazon Simple Storage Service,1.95
+2026-08,prod,prod,Amazon Relational Database Service,484.92
+2026-08,prod,prod,EC2 - Other,179.13
+2026-08,prod,prod,Amazon Elastic Container Service,28.45
+2026-08,prod,prod,Elastic Load Balancing,31.95
+2026-08,prod,prod,AmazonCloudWatch,87.79
+2026-08,prod,prod,Amazon Simple Storage Service,71.97
+2026-08,preview,demo,Amazon Relational Database Service,468.54
+2026-08,preview,demo,EC2 - Other,137.14
+2026-08,preview,demo,Amazon Elastic Container Service,29.00
+2026-08,preview,demo,Elastic Load Balancing,19.19
+2026-08,preview,demo,AmazonCloudWatch,5.98
+2026-08,preview,demo,Amazon Simple Storage Service,8.88
+2026-08,preview,staging,Amazon Relational Database Service,481.97
+2026-08,preview,staging,EC2 - Other,140.04
+2026-08,preview,staging,Amazon Elastic Container Service,29.59
+2026-08,preview,staging,Elastic Load Balancing,19.24
+2026-08,preview,staging,AmazonCloudWatch,5.93
+2026-08,preview,staging,Amazon Simple Storage Service,1.97
+2026-08,preview,feat-onboarding,Amazon Relational Database Service,184.83
+2026-08,preview,feat-onboarding,EC2 - Other,53.00
+2026-08,preview,feat-onboarding,Amazon Elastic Container Service,11.79
+2026-08,preview,feat-onboarding,Elastic Load Balancing,7.55
+2026-08,preview,feat-onboarding,AmazonCloudWatch,2.45
+2026-08,preview,feat-onboarding,Amazon Simple Storage Service,0.79
+2026-08,preview,feat-billing-export,Amazon Relational Database Service,336.60
+2026-08,preview,feat-billing-export,EC2 - Other,97.18
+2026-08,preview,feat-billing-export,Amazon Elastic Container Service,19.69
+2026-08,preview,feat-billing-export,Elastic Load Balancing,13.07
+2026-08,preview,feat-billing-export,AmazonCloudWatch,4.30
+2026-08,preview,feat-billing-export,Amazon Simple Storage Service,1.40
+2026-09,prod,prod,Amazon Relational Database Service,503.49
+2026-09,prod,prod,EC2 - Other,187.23
+2026-09,prod,prod,Amazon Elastic Container Service,28.50
+2026-09,prod,prod,Elastic Load Balancing,34.18
+2026-09,prod,prod,AmazonCloudWatch,122.35
+2026-09,prod,prod,Amazon Simple Storage Service,108.00
+2026-09,preview,demo,Amazon Relational Database Service,456.41
+2026-09,preview,demo,EC2 - Other,134.63
+2026-09,preview,demo,Amazon Elastic Container Service,29.81
+2026-09,preview,demo,Elastic Load Balancing,19.29
+2026-09,preview,demo,AmazonCloudWatch,5.86
+2026-09,preview,demo,Amazon Simple Storage Service,8.86
+2026-09,preview,staging,Amazon Relational Database Service,456.80
+2026-09,preview,staging,EC2 - Other,132.41
+2026-09,preview,staging,Amazon Elastic Container Service,29.52
+2026-09,preview,staging,Elastic Load Balancing,18.63
+2026-09,preview,staging,AmazonCloudWatch,6.02
+2026-09,preview,staging,Amazon Simple Storage Service,1.99
+2026-09,preview,feat-billing-export,Amazon Relational Database Service,137.79
+2026-09,preview,feat-billing-export,EC2 - Other,41.37
+2026-09,preview,feat-billing-export,Amazon Elastic Container Service,8.51
+2026-09,preview,feat-billing-export,Elastic Load Balancing,5.75
+2026-09,preview,feat-billing-export,AmazonCloudWatch,1.76
+2026-09,preview,feat-billing-export,Amazon Simple Storage Service,0.60
+2026-09,preview,feat-tariff-v1,Amazon Relational Database Service,367.95
+2026-09,preview,feat-tariff-v1,EC2 - Other,107.30
+2026-09,preview,feat-tariff-v1,Amazon Elastic Container Service,23.86
+2026-09,preview,feat-tariff-v1,Elastic Load Balancing,15.48
+2026-09,preview,feat-tariff-v1,AmazonCloudWatch,4.74
+2026-09,preview,feat-tariff-v1,Amazon Simple Storage Service,1.64
+2026-09,preview,fix-timezones,Amazon Relational Database Service,229.94
+2026-09,preview,fix-timezones,EC2 - Other,67.57
+2026-09,preview,fix-timezones,Amazon Elastic Container Service,14.81
+2026-09,preview,fix-timezones,Elastic Load Balancing,9.58
+2026-09,preview,fix-timezones,AmazonCloudWatch,2.93
+2026-09,preview,fix-timezones,Amazon Simple Storage Service,1.03
+2026-09,preview,feat-alerts-v1,Amazon Relational Database Service,275.97
+2026-09,preview,feat-alerts-v1,EC2 - Other,80.42
+2026-09,preview,feat-alerts-v1,Amazon Elastic Container Service,17.68
+2026-09,preview,feat-alerts-v1,Elastic Load Balancing,11.28
+2026-09,preview,feat-alerts-v1,AmazonCloudWatch,3.56
+2026-09,preview,feat-alerts-v1,Amazon Simple Storage Service,1.17
+2026-10,prod,prod,Amazon Relational Database Service,488.85
+2026-10,prod,prod,EC2 - Other,193.64
+2026-10,prod,prod,Amazon Elastic Container Service,28.70
+2026-10,prod,prod,Elastic Load Balancing,35.14
+2026-10,prod,prod,AmazonCloudWatch,163.16
+2026-10,prod,prod,Amazon Simple Storage Service,151.72
+2026-10,preview,demo,Amazon Relational Database Service,480.89
+2026-10,preview,demo,EC2 - Other,135.87
+2026-10,preview,demo,Amazon Elastic Container Service,29.13
+2026-10,preview,demo,Elastic Load Balancing,19.42
+2026-10,preview,demo,AmazonCloudWatch,5.89
+2026-10,preview,demo,Amazon Simple Storage Service,8.81
+2026-10,preview,staging,Amazon Relational Database Service,479.47
+2026-10,preview,staging,EC2 - Other,138.59
+2026-10,preview,staging,Amazon Elastic Container Service,28.56
+2026-10,preview,staging,Elastic Load Balancing,18.65
+2026-10,preview,staging,AmazonCloudWatch,6.09
+2026-10,preview,staging,Amazon Simple Storage Service,2.05
+2026-10,preview,feat-tariff-v2,Amazon Relational Database Service,275.69
+2026-10,preview,feat-tariff-v2,EC2 - Other,83.80
+2026-10,preview,feat-tariff-v2,Amazon Elastic Container Service,17.80
+2026-10,preview,feat-tariff-v2,Elastic Load Balancing,11.47
+2026-10,preview,feat-tariff-v2,AmazonCloudWatch,3.58
+2026-10,preview,feat-tariff-v2,Amazon Simple Storage Service,1.17
+2026-10,preview,feat-alerts,Amazon Relational Database Service,409.54
+2026-10,preview,feat-alerts,EC2 - Other,125.80
+2026-10,preview,feat-alerts,Amazon Elastic Container Service,25.69
+2026-10,preview,feat-alerts,Elastic Load Balancing,17.31
+2026-10,preview,feat-alerts,AmazonCloudWatch,5.32
+2026-10,preview,feat-alerts,Amazon Simple Storage Service,1.83
+2026-10,preview,fix-login-redirect,Amazon Relational Database Service,141.21
+2026-10,preview,fix-login-redirect,EC2 - Other,40.29
+2026-10,preview,fix-login-redirect,Amazon Elastic Container Service,8.53
+2026-10,preview,fix-login-redirect,Elastic Load Balancing,5.78
+2026-10,preview,fix-login-redirect,AmazonCloudWatch,1.75
+2026-10,preview,fix-login-redirect,Amazon Simple Storage Service,0.59
+2026-10,preview,feat-export-csv,Amazon Relational Database Service,93.93
+2026-10,preview,feat-export-csv,EC2 - Other,27.78
+2026-10,preview,feat-export-csv,Amazon Elastic Container Service,5.84
+2026-10,preview,feat-export-csv,Elastic Load Balancing,3.75
+2026-10,preview,feat-export-csv,AmazonCloudWatch,1.23
+2026-10,preview,feat-export-csv,Amazon Simple Storage Service,0.39
+2026-10,preview,feat-sso,Amazon Relational Database Service,363.54
+2026-10,preview,feat-sso,EC2 - Other,107.29
+2026-10,preview,feat-sso,Amazon Elastic Container Service,23.12
+2026-10,preview,feat-sso,Elastic Load Balancing,14.80
+2026-10,preview,feat-sso,AmazonCloudWatch,4.71
+2026-10,preview,feat-sso,Amazon Simple Storage Service,1.59
+2026-10,preview,fix-csv-encoding,Amazon Relational Database Service,235.01
+2026-10,preview,fix-csv-encoding,EC2 - Other,66.50
+2026-10,preview,fix-csv-encoding,Amazon Elastic Container Service,14.38
+2026-10,preview,fix-csv-encoding,Elastic Load Balancing,9.72
+2026-10,preview,fix-csv-encoding,AmazonCloudWatch,3.09
+2026-10,preview,fix-csv-encoding,Amazon Simple Storage Service,1.01

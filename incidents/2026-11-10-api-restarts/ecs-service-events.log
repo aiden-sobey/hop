@@ -1,0 +1,184 @@
+# ECS service events for readings-api-prod, 20 October to 11 November 2026 (AEDT).
+# Exported from the EventBridge archive. Oldest first.
+
+2026-10-20T00:16:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-20T06:06:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-20T12:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-20T18:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-21T00:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-21T06:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-21T12:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-21T14:09:12+11:00  (service readings-api-prod) has started 3 tasks: (task f1d69ed617f5e837d70820fe119a72d1) (task aa05e11ab2715945795e8229451abd81) (task b394fb36bb2d420f0f88080b10a3d6b2).
+2026-10-21T14:10:23+11:00  (service readings-api-prod) (task f1d69ed617f5e837d70820fe119a72d1) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-21T14:10:24+11:00  (service readings-api-prod) (task aa05e11ab2715945795e8229451abd81) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-21T14:10:25+11:00  (service readings-api-prod) (task b394fb36bb2d420f0f88080b10a3d6b2) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-21T14:10:36+11:00  (service readings-api-prod) has stopped 3 running tasks: (task f1d69ed617f5e837d70820fe119a72d1) (task aa05e11ab2715945795e8229451abd81) (task b394fb36bb2d420f0f88080b10a3d6b2).
+2026-10-21T14:11:02+11:00  (service readings-api-prod) has started 3 tasks: (task fe3b890b93f448b3a5aa3c814f426dcb) (task 48db40af72158370d269a9a5ae658f33) (task ab2cd31ee315128862c33a4fb774eb52).
+2026-10-21T14:12:13+11:00  (service readings-api-prod) (task fe3b890b93f448b3a5aa3c814f426dcb) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-21T14:12:14+11:00  (service readings-api-prod) (task 48db40af72158370d269a9a5ae658f33) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-21T14:12:15+11:00  (service readings-api-prod) (task ab2cd31ee315128862c33a4fb774eb52) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-21T14:12:26+11:00  (service readings-api-prod) has stopped 3 running tasks: (task fe3b890b93f448b3a5aa3c814f426dcb) (task 48db40af72158370d269a9a5ae658f33) (task ab2cd31ee315128862c33a4fb774eb52).
+2026-10-21T14:12:57+11:00  (service readings-api-prod) (deployment ecs-svc/5207751515961629917) deployment failed: tasks failed to start.
+2026-10-21T14:12:58+11:00  (service readings-api-prod) rolling back to deployment ecs-svc/9742514861359412280.
+2026-10-21T14:13:21+11:00  (service readings-api-prod) (deployment ecs-svc/9742514861359412280) deployment completed.
+2026-10-21T14:13:21+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-21T18:07:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-22T00:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-22T06:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-22T12:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-22T18:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-23T00:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-23T06:03:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-23T12:07:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-23T18:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-24T00:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-24T06:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-24T12:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-24T18:12:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-25T00:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-25T06:07:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-25T12:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-25T18:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-26T00:04:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-26T06:09:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-26T12:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-26T18:04:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-27T00:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-27T06:03:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-27T12:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-27T18:09:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-28T00:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-28T06:05:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-28T10:31:40+11:00  (service readings-api-prod) has started 3 tasks: (task 2b0537e65affb2297631a992f0ce5835) (task 0f17a3007e62aa0a1df9fd789c653938) (task 211c70cf49952399c4aaeac137dc76fb).
+2026-10-28T10:32:51+11:00  (service readings-api-prod) (task 2b0537e65affb2297631a992f0ce5835) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-28T10:32:52+11:00  (service readings-api-prod) (task 0f17a3007e62aa0a1df9fd789c653938) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-28T10:32:53+11:00  (service readings-api-prod) (task 211c70cf49952399c4aaeac137dc76fb) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-28T10:33:04+11:00  (service readings-api-prod) has stopped 3 running tasks: (task 2b0537e65affb2297631a992f0ce5835) (task 0f17a3007e62aa0a1df9fd789c653938) (task 211c70cf49952399c4aaeac137dc76fb).
+2026-10-28T10:33:30+11:00  (service readings-api-prod) has started 3 tasks: (task 6415479c65dc9f503f63af83bd0561e6) (task 14a0f9e77f1b103cdf1582b0eab477d2) (task 8ca8181166d2287672fdf2022a96fb1a).
+2026-10-28T10:34:41+11:00  (service readings-api-prod) (task 6415479c65dc9f503f63af83bd0561e6) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-28T10:34:42+11:00  (service readings-api-prod) (task 14a0f9e77f1b103cdf1582b0eab477d2) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-28T10:34:43+11:00  (service readings-api-prod) (task 8ca8181166d2287672fdf2022a96fb1a) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-10-28T10:34:54+11:00  (service readings-api-prod) has stopped 3 running tasks: (task 6415479c65dc9f503f63af83bd0561e6) (task 14a0f9e77f1b103cdf1582b0eab477d2) (task 8ca8181166d2287672fdf2022a96fb1a).
+2026-10-28T10:35:25+11:00  (service readings-api-prod) (deployment ecs-svc/1208106229431883325) deployment failed: tasks failed to start.
+2026-10-28T10:35:26+11:00  (service readings-api-prod) rolling back to deployment ecs-svc/9742514861359412280.
+2026-10-28T10:35:49+11:00  (service readings-api-prod) (deployment ecs-svc/9742514861359412280) deployment completed.
+2026-10-28T10:35:49+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-28T12:03:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-28T18:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-29T00:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-29T06:06:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-29T12:11:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-29T18:03:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-30T00:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-30T06:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-30T12:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-30T18:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-31T00:19:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-31T06:06:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-31T12:15:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-10-31T18:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-01T00:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-01T06:10:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-01T12:14:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-01T18:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-02T00:14:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-02T06:11:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-02T12:09:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-02T18:07:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-03T00:05:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-03T06:07:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-03T12:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-03T16:47:05+11:00  (service readings-api-prod) has started 3 tasks: (task dd2e16096e36aab0d1bc52d9230d977e) (task 6a50df4db4d66a3a47469a4d8cdb305f) (task e25a7605aec6f0245bd86d40fc891b4a).
+2026-11-03T16:48:16+11:00  (service readings-api-prod) (task dd2e16096e36aab0d1bc52d9230d977e) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-11-03T16:48:17+11:00  (service readings-api-prod) (task 6a50df4db4d66a3a47469a4d8cdb305f) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-11-03T16:48:18+11:00  (service readings-api-prod) (task e25a7605aec6f0245bd86d40fc891b4a) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-11-03T16:48:29+11:00  (service readings-api-prod) has stopped 3 running tasks: (task dd2e16096e36aab0d1bc52d9230d977e) (task 6a50df4db4d66a3a47469a4d8cdb305f) (task e25a7605aec6f0245bd86d40fc891b4a).
+2026-11-03T16:48:55+11:00  (service readings-api-prod) has started 3 tasks: (task 26a2c0bd3b1287fff52ddf5d616499c9) (task 3b61867626bb7dbd2d1c9af0153e7c2a) (task 7c26847f0316909e3bbbe9eaa8948c89).
+2026-11-03T16:50:06+11:00  (service readings-api-prod) (task 26a2c0bd3b1287fff52ddf5d616499c9) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-11-03T16:50:07+11:00  (service readings-api-prod) (task 3b61867626bb7dbd2d1c9af0153e7c2a) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-11-03T16:50:08+11:00  (service readings-api-prod) (task 7c26847f0316909e3bbbe9eaa8948c89) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Health checks failed).
+2026-11-03T16:50:19+11:00  (service readings-api-prod) has stopped 3 running tasks: (task 26a2c0bd3b1287fff52ddf5d616499c9) (task 3b61867626bb7dbd2d1c9af0153e7c2a) (task 7c26847f0316909e3bbbe9eaa8948c89).
+2026-11-03T16:50:50+11:00  (service readings-api-prod) (deployment ecs-svc/9147777725933844255) deployment failed: tasks failed to start.
+2026-11-03T16:50:51+11:00  (service readings-api-prod) rolling back to deployment ecs-svc/9742514861359412280.
+2026-11-03T16:51:14+11:00  (service readings-api-prod) (deployment ecs-svc/9742514861359412280) deployment completed.
+2026-11-03T16:51:14+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-03T18:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-04T00:09:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-04T06:16:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-04T12:15:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-04T18:10:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-05T00:14:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-05T06:09:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-05T12:19:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-05T18:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-06T00:03:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-06T06:16:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-06T12:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-06T18:05:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-07T00:10:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-07T06:04:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-07T12:15:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-07T18:13:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-08T00:01:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-08T06:02:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-08T12:17:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-08T18:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-09T00:10:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-09T06:10:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-09T12:11:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-09T18:19:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T00:15:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T06:18:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T08:57:02+11:00  (service readings-api-prod) has stopped 1 running tasks: (task 0c5c7fd0a6a3a4506513270e269e0d37).
+2026-11-10T08:57:16+11:00  (service readings-api-prod) (task 1818e811892f902bd23f0824128b2f33) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T08:57:17+11:00  (service readings-api-prod) (task e8e25d940ed904759531985d5d9dc9f8) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T08:57:29+11:00  (service readings-api-prod) has stopped 2 running tasks: (task 1818e811892f902bd23f0824128b2f33) (task e8e25d940ed904759531985d5d9dc9f8).
+2026-11-10T08:57:51+11:00  (service readings-api-prod) has started 3 tasks: (task 43435cc52eae05cf96d0cc5fd4c28c2e) (task 6b4013ef254b0c4e010c4759482c9cbc) (task 90fbbd119c1caaf75e8766ed88daf401).
+2026-11-10T08:59:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T09:41:37+11:00  (service readings-api-prod) has stopped 1 running tasks: (task 43435cc52eae05cf96d0cc5fd4c28c2e).
+2026-11-10T09:41:51+11:00  (service readings-api-prod) (task 6b4013ef254b0c4e010c4759482c9cbc) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T09:41:52+11:00  (service readings-api-prod) (task 90fbbd119c1caaf75e8766ed88daf401) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T09:42:04+11:00  (service readings-api-prod) has stopped 2 running tasks: (task 6b4013ef254b0c4e010c4759482c9cbc) (task 90fbbd119c1caaf75e8766ed88daf401).
+2026-11-10T09:42:26+11:00  (service readings-api-prod) has started 3 tasks: (task b0c4312d20203626f3fe39c0519088f5) (task 9e1a8ef4f341e07a83f73f16dbf4a8b2) (task 0dd27a65bd628881ad1b72dba7abe1c2).
+2026-11-10T09:43:35+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T11:03:15+11:00  (service readings-api-prod) has stopped 1 running tasks: (task b0c4312d20203626f3fe39c0519088f5).
+2026-11-10T11:03:29+11:00  (service readings-api-prod) (task 9e1a8ef4f341e07a83f73f16dbf4a8b2) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T11:03:30+11:00  (service readings-api-prod) (task 0dd27a65bd628881ad1b72dba7abe1c2) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T11:03:42+11:00  (service readings-api-prod) has stopped 2 running tasks: (task 9e1a8ef4f341e07a83f73f16dbf4a8b2) (task 0dd27a65bd628881ad1b72dba7abe1c2).
+2026-11-10T11:04:04+11:00  (service readings-api-prod) has started 3 tasks: (task c7ac1491def88334e647cb8f74e69a5d) (task cc4169a3ae3a2b7fdfe01893f3aed0b6) (task 66237a0465e7e4236472f1a38f2c6ec8).
+2026-11-10T11:05:13+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T13:58:49+11:00  (service readings-api-prod) has stopped 1 running tasks: (task c7ac1491def88334e647cb8f74e69a5d).
+2026-11-10T13:59:03+11:00  (service readings-api-prod) (task cc4169a3ae3a2b7fdfe01893f3aed0b6) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T13:59:04+11:00  (service readings-api-prod) (task 66237a0465e7e4236472f1a38f2c6ec8) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T13:59:16+11:00  (service readings-api-prod) has stopped 2 running tasks: (task cc4169a3ae3a2b7fdfe01893f3aed0b6) (task 66237a0465e7e4236472f1a38f2c6ec8).
+2026-11-10T13:59:38+11:00  (service readings-api-prod) has started 3 tasks: (task a260cd0b7b45145c1a81682c64e50cad) (task 113db17d30cbc97d0fef792866836886) (task 298cb3a570ccec313571810afc132d0d).
+2026-11-10T14:00:47+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T14:21:03+11:00  (service readings-api-prod) has started 3 tasks: (task 0d75985d99c94309570dc1951c2442f9) (task 26b94c7f9118bb16000f49c81a358ca0) (task 5d158a2ff2ee4e4519f9919c895fd7b3).
+2026-11-10T14:23:11+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T15:12:40+11:00  (service readings-api-prod) has stopped 1 running tasks: (task a260cd0b7b45145c1a81682c64e50cad).
+2026-11-10T15:12:54+11:00  (service readings-api-prod) (task 113db17d30cbc97d0fef792866836886) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T15:12:55+11:00  (service readings-api-prod) (task 298cb3a570ccec313571810afc132d0d) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T15:12:56+11:00  (service readings-api-prod) (task 0d75985d99c94309570dc1951c2442f9) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T15:12:57+11:00  (service readings-api-prod) (task 26b94c7f9118bb16000f49c81a358ca0) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T15:12:58+11:00  (service readings-api-prod) (task 5d158a2ff2ee4e4519f9919c895fd7b3) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T15:13:07+11:00  (service readings-api-prod) has stopped 5 running tasks: (task 113db17d30cbc97d0fef792866836886) (task 298cb3a570ccec313571810afc132d0d) (task 0d75985d99c94309570dc1951c2442f9) (task 26b94c7f9118bb16000f49c81a358ca0) (task 5d158a2ff2ee4e4519f9919c895fd7b3).
+2026-11-10T15:13:29+11:00  (service readings-api-prod) has started 6 tasks: (task dfd43f371200339d068739fa9d1de2a0) (task 2607679d6050914a9d33a01c353c631c) (task 58ee8571f4998d7c4093f6dea268aa87) (task 1f7296ab7961fd925d39d0a89a2ef80f) (task fe3bfada7cf20724d953ee261d87cec3) (task 7bdc968b7afb2c68774b15d7fa529ba3).
+2026-11-10T15:14:38+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-10T16:45:02+11:00  (service readings-api-prod) has stopped 1 running tasks: (task dfd43f371200339d068739fa9d1de2a0).
+2026-11-10T16:45:16+11:00  (service readings-api-prod) (task 2607679d6050914a9d33a01c353c631c) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T16:45:17+11:00  (service readings-api-prod) (task 58ee8571f4998d7c4093f6dea268aa87) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T16:45:18+11:00  (service readings-api-prod) (task 1f7296ab7961fd925d39d0a89a2ef80f) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T16:45:19+11:00  (service readings-api-prod) (task fe3bfada7cf20724d953ee261d87cec3) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T16:45:20+11:00  (service readings-api-prod) (task 7bdc968b7afb2c68774b15d7fa529ba3) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-10T16:45:29+11:00  (service readings-api-prod) has stopped 5 running tasks: (task 2607679d6050914a9d33a01c353c631c) (task 58ee8571f4998d7c4093f6dea268aa87) (task 1f7296ab7961fd925d39d0a89a2ef80f) (task fe3bfada7cf20724d953ee261d87cec3) (task 7bdc968b7afb2c68774b15d7fa529ba3).
+2026-11-10T16:45:51+11:00  (service readings-api-prod) has started 6 tasks: (task 1a28f7b324e4e25a15fc899e4fd58dbe) (task 43c71b9abd87a86557b6fb7ebfeaa155) (task 29540a6eb12aa1f6d42fddbb7a86f7a2) (task f373ca533488f87605e999f3842e7fc2) (task 2587be6b5c9bcf35873be078f3b7a50d) (task 06ec41adea0575438b0d590bb0a844e5).
+2026-11-10T16:47:00+11:00  (service readings-api-prod) has reached a steady state.
+2026-11-11T09:13:51+11:00  (service readings-api-prod) has stopped 1 running tasks: (task 1a28f7b324e4e25a15fc899e4fd58dbe).
+2026-11-11T09:14:05+11:00  (service readings-api-prod) (task 43c71b9abd87a86557b6fb7ebfeaa155) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-11T09:14:06+11:00  (service readings-api-prod) (task 29540a6eb12aa1f6d42fddbb7a86f7a2) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-11T09:14:07+11:00  (service readings-api-prod) (task f373ca533488f87605e999f3842e7fc2) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-11T09:14:08+11:00  (service readings-api-prod) (task 2587be6b5c9bcf35873be078f3b7a50d) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-11T09:14:09+11:00  (service readings-api-prod) (task 06ec41adea0575438b0d590bb0a844e5) (port 3000) is unhealthy in (target-group arn:aws:elasticloadbalancing:ap-southeast-2:111122223333:targetgroup/readings-api-prod/6d0ecf831eec9f09) due to (reason Request timed out).
+2026-11-11T09:14:18+11:00  (service readings-api-prod) has stopped 5 running tasks: (task 43c71b9abd87a86557b6fb7ebfeaa155) (task 29540a6eb12aa1f6d42fddbb7a86f7a2) (task f373ca533488f87605e999f3842e7fc2) (task 2587be6b5c9bcf35873be078f3b7a50d) (task 06ec41adea0575438b0d590bb0a844e5).
+2026-11-11T09:14:40+11:00  (service readings-api-prod) has started 6 tasks: (task fa7f0eab4c4f9b0687322e25c215a82a) (task b239f3c7174c77a2dd02de92a49636a2) (task 5de0099784b5a81842d87208d86f40f6) (task c59db9165b0ee76f2ac34446e883a1d4) (task c77024208aa4248c8857f9a43908f227) (task 39194242a2eddbbd5464ecc280b0c08b).
+2026-11-11T09:15:49+11:00  (service readings-api-prod) has reached a steady state.

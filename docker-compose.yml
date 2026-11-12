@@ -1,0 +1,34 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+      POSTGRES_DB: readings
+    ports:
+      - "${DB_PORT:-5433}:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d readings"]
+      interval: 2s
+      timeout: 2s
+      retries: 15
+
+  api:
+    build: ./api
+    environment:
+      DATABASE_URL: postgres://app:app@db:5432/readings
+      LOG_LEVEL: debug
+    ports:
+      - "${API_PORT:-3000}:3000"
+    # Matches the ECS task size in infra/modules/environment.
+    mem_limit: 512m
+    cpus: 0.25
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db-data:

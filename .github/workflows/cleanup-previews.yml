@@ -1,0 +1,73 @@
+name: Clean up preview environments
+
+on:
+  schedule:
+    - cron: "0 11 * * 5" # Friday 10pm Sydney
+  workflow_dispatch:
+
+env:
+  AWS_REGION: ap-southeast-2
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    outputs:
+      environments: ${{ steps.find.outputs.environments }}
+    defaults:
+      run:
+        working-directory: scripts/cleanup
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: scripts/cleanup/package.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - run: pnpm install --frozen-lockfile
+
+      - id: find
+        run: echo "environments=$(pnpm --silent start)" >> "$GITHUB_OUTPUT"
+
+  destroy:
+    needs: find
+    if: needs.find.outputs.environments != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        environment: ${{ fromJSON(needs.find.outputs.environments) }}
+    defaults:
+      run:
+        working-directory: infra/environments/preview
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - uses: hashicorp/setup-terraform@v3
+
+      - name: Destroy
+        env:
+          ENVIRONMENT: ${{ matrix.environment }}
+          TF_VAR_image_tag: latest
+          TF_VAR_commit_sha: ""
+          TF_VAR_commit_timestamp: ""
+          TF_VAR_deployed_by: ""
+          TF_VAR_db_password: ${{ secrets.PREVIEW_DB_PASSWORD }}
+          TF_VAR_certificate_arn: ${{ vars.PREVIEW_CERTIFICATE_ARN }}
+        run: |
+          terraform init -input=false
+          terraform workspace select "$ENVIRONMENT"
+          terraform destroy -auto-approve -input=false
